@@ -1,4 +1,5 @@
 # HousePrices
+Visualization Map https://mnobeidat.netlify.app/
 Predicting and visualizing houses prices in Dubai 
 RandomForest(which turned to give the best result among other algorithms like linear regression and decision tree) regressor from sklearn was used to predict house prices depeneding on 4 variables:
 Area, number of bedrooms, number of bathrooms and location.
