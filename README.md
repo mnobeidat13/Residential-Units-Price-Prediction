@@ -1,10 +1,8 @@
-# HousePrices
-Visualization Map https://mnobeidat.netlify.app/ <br/>
-Predicting and visualizing houses prices in 75 different locations in Dubai <br/>
-Data collected from Bayut.com
-RandomForest(which turned to give the best result among other algorithms like linear regression and decision tree) regressor from sklearn was used to predict house prices depeneding on 4 variables: <br/>
-Area, number of bedrooms, number of bathrooms and location.<br/>
-A training aacuracy of 0.97 and testing accuracy of 0.87 was the best achieved even with hyperparemeter tuning and GradientBoosting.<br/>
-Raw data which was collected from bayut.com using web scraper extension on chrome is saved in bayut3.csv.<br/>
+# Residential Units Price Prediction
 
-final_map.html contains a map with plots of prices for each location of the 75 different locations in Dubai covered by the analysis.
+In this project, I built a machine learning model to predict the sale listing price of residential units in different locations in Dubai.
+I collected the data from bayut.com. The data includes the unit properties like area, number of bathrooms and bedrooms and location which is embedded as one-hot encoding of the locations.
+After experimentation, Random Forest turned out to be the best model to fit the data with reasonable accuracy and no overfitting.
+
+Following the link, you can find a map that shows the the average price of units in a given location given its properties.
+https://mnobeidat.netlify.app/ <br/>
